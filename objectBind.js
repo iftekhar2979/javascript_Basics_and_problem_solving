@@ -16,7 +16,7 @@ const person={
     }
 }
 
-// binding an object method to new objects 
+// binding an object method to new objects ".bind()"
 // first example
 
 const heroAlam={
