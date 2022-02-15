@@ -16,6 +16,8 @@ const person={
     }
 }
 
+// Using object method " .call() "
+// for ".call()" we have pass the argument by using coma" , "
 
 const heroAlam={
     firstName:'Hero',
@@ -24,6 +26,10 @@ const heroAlam={
 }
 person.chargeBill.call(heroAlam,1500,300,5000);
 person.chargeBill.call(heroAlam,1500,300,5000);
+
+
+// using object method " .apply() " 
+// for ".apply()" we have pass the argument like array
 
 const zeroAlam={
     firstName:'Zero',
